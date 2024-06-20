@@ -35,24 +35,23 @@ By substituting $\omega^2 = \frac{k}{m}$ and $2\zeta\omega = \frac{d}{m}$, we ca
 $$
 \frac{d}{dt}
 \begin{bmatrix}
-x \\ v
-\end{bmatrix}
-=
+x \\
+v
+\end{bmatrix}=
 \begin{bmatrix}
 0 & 1 \\
 -\omega^2 & -2\zeta\omega \\
 \end{bmatrix}
 \begin{bmatrix}
-x \\ v
+x \\
+v
 \end{bmatrix}
 $$
 
-$\omega = \sqrt{\frac{k}{m}}$ is called the "undamped angular frequency of the oscillator", and $\zeta = \frac{d}{2\sqrt{km}} $ is called the "damping ratio".
+$\omega = \sqrt{\frac{k}{m}}$ is called the "undamped angular frequency of the oscillator", and $\zeta = \frac{d}{2\sqrt{km}}$ is called the "damping ratio".
 
 If we call the above 2x2 matrix $A$ and the $x$ and $v$ vector $\mathbf{x}$, we have the following first-order ODE: 
-$$
-\frac{d \mathbf{x}(t)}{dt} = A \mathbf{x}(t)
-$$
+$$\frac{d \mathbf{x}(t)}{dt} = A \mathbf{x}(t)$$
 
 By using forward Euler method, we can get an update rule for our ODE:
 
@@ -60,10 +59,9 @@ $$
 \begin{aligned}
 \frac{\Delta \mathbf{x}}{\Delta t} &= A \mathbf{x}\\
 \Delta \mathbf{x} &= A \mathbf{x} \Delta t\\
-\mathbf{x}_{k+1} &= \mathbf{x}_{k} +  A \mathbf{x}_k \Delta t
+\mathbf{x}_ {k+1} &= \mathbf{x}_{k} +  A \mathbf{x}_k \Delta t
 \end{aligned}
 $$
-
 
 ## Code
 
@@ -71,7 +69,10 @@ Check `oscilator.ipynb` for the code and plots
 
 ### Example 
 
+
+<p align="center">
 <img src="oscilator_plot_example.png" alt="oscilator plot example" width="500"/>
+</p>
 
 
 ## References
