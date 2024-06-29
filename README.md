@@ -6,3 +6,4 @@
 
 - [Harmonic Oscilator](HarmonicOscilator/README.md)
 
+- [Correlation of Coefficient (CC) vs Coefficient of Determination (R2)](CC_vs_R2/cc_vs_r2.ipynb)
