@@ -1,6 +1,6 @@
 # LSTM
 
-The python notebook includes examples of using `torch.nn.LSTM` for both unidirectional and bidirectional configurations. Examples of using `torch.nn.utils.rnn.PackedSequence` for handling variable input sequence lengths in the model are also included.
+The [python notebook](lstm.ipynb) includes examples of using `torch.nn.LSTM` for both unidirectional and bidirectional configurations. Examples of using `torch.nn.utils.rnn.PackedSequence` for handling variable input sequence lengths in the model are also included.
 
 ### Resources
 
